@@ -1,1 +1,264 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVP Relocation Bridge Community</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in-up { animation: fadeInUp 0.6s ease-out both; }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        .animate-float { animation: float 3s ease-in-out infinite; }
+    </style>
+</head>
+<body class="bg-slate-950 text-white overflow-x-hidden">
+    <nav class="fixed top-0 w-full z-50 bg-slate-950/80 backdrop-blur-lg border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">AVP Bridge</div>
+            <div class="flex gap-6 text-sm">
+                <a href="#vision" class="hover:text-blue-400 transition">Vision</a>
+                <a href="#solution" class="hover:text-blue-400 transition">Solution</a>
+                <a href="#team" class="hover:text-blue-400 transition">Team</a>
+                <a href="#contact" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg transition">Partner With Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-950/50 via-slate-950 to-emerald-950/50"></div>
+        <div class="absolute inset-0 opacity-20" style="background-image: radial-gradient(circle at 2px 2px, rgb(148, 163, 184) 1px, transparent 0); background-size: 40px 40px;"></div>
+        <div class="relative z-10 text-center max-w-5xl mx-auto px-6">
+            <div class="mb-8 inline-block animate-float">
+                <img src="https://raw.githubusercontent.com/ParaKeatts/avp-bridge/main/bradford-egan.jpg" alt="Bradford Egan" class="w-32 h-32 rounded-full border-4 border-blue-500 shadow-2xl shadow-blue-500/50 mx-auto object-cover"/>
+            </div>
+            <h1 class="text-6xl md:text-7xl font-bold mb-6 leading-tight animate-fade-in-up">
+                <span class="bg-gradient-to-r from-blue-400 via-emerald-400 to-blue-400 bg-clip-text text-transparent">Bradford Egan</span>
+                <br/><span class="text-4xl md:text-5xl text-slate-300">presents</span>
+            </h1>
+            <h2 class="text-5xl md:text-6xl font-bold mb-8 text-white">The Relocation Bridge</h2>
+            <p class="text-xl md:text-2xl text-slate-300 mb-4 max-w-3xl mx-auto">We don't just sell housing. <span class="text-emerald-400 font-bold">We sell time.</span></p>
+            <p class="text-lg md:text-xl text-slate-400 mb-12 max-w-3xl mx-auto">Solving: <span class="text-emerald-400 font-semibold">"Where do I go between homes?"</span><br/><span class="text-slate-500 text-base mt-2 block">41 million Americans face this every year</span></p>
+            <a href="#problem" class="inline-block px-8 py-4 bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 rounded-full text-lg font-semibold shadow-2xl shadow-blue-500/50 transition-all transform hover:scale-105">Discover The Vision</a>
+        </div>
+    </section>
+
+    <section id="problem" class="min-h-screen flex items-center bg-gradient-to-b from-slate-950 to-slate-900 py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-bold mb-6">Meet Sarah</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-emerald-500 mx-auto mb-8"></div>
+                <p class="text-xl text-slate-400">A feeling millions know: universal anxiety</p>
+            </div>
+            <div class="max-w-4xl mx-auto mb-20">
+                <div class="bg-gradient-to-br from-slate-800/50 to-slate-900/50 rounded-3xl p-10 border border-slate-700">
+                    <div class="text-6xl mb-6 text-center">👨‍👩‍👧‍👦</div>
+                    <p class="text-2xl text-slate-300 leading-relaxed mb-6">Sarah and her family got <span class="text-emerald-400 font-bold">$50K over asking</span>. Accepted immediately.</p>
+                    <p class="text-2xl text-slate-300 leading-relaxed mb-6">Closing in <span class="text-blue-400 font-bold">30 days</span>. But new construction? <span class="text-red-400 font-bold">Delayed 7 months</span>.</p>
+                    <p class="text-2xl text-slate-300 leading-relaxed mb-6"><span class="text-red-400 font-bold">Options:</span> Hotels at $8,400/month, Airbnb roulette, or panic buying the wrong house.</p>
+                    <div class="bg-slate-950/50 rounded-2xl p-8 mt-8 border-l-4 border-blue-500">
+                        <p class="text-3xl text-white font-bold text-center">"Where do we go with two kids, a dog, and all our belongings?"</p>
+                        <p class="text-lg text-slate-400 text-center mt-4">This is <span class="text-emerald-400 font-semibold">millions of families</span> every year.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-bold mb-6">The $40B Problem</h2>
+                <p class="text-2xl text-slate-300 mb-4">41 million Americans move every year</p>
+                <p class="text-xl text-slate-400 mb-8">7.7M cross state lines • $4,890+ average cost</p>
+                <div class="flex justify-center gap-4 mb-6 flex-wrap">
+                    <span class="bg-red-950/30 px-6 py-3 rounded-full border border-red-800 text-red-400">60% overspend</span>
+                    <span class="bg-red-950/30 px-6 py-3 rounded-full border border-red-800 text-red-400">90% stress</span>
+                </div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <div class="bg-slate-800/50 border border-slate-700 rounded-2xl p-8 hover:border-blue-500 transition">
+                    <div class="text-6xl mb-4">🏠</div>
+                    <h3 class="text-2xl font-bold mb-4 text-blue-400">Sold My House</h3>
+                    <p class="text-slate-300 text-lg">"Where do I go while searching?"</p>
+                </div>
+                <div class="bg-slate-800/50 border border-slate-700 rounded-2xl p-8 hover:border-blue-500 transition">
+                    <div class="text-6xl mb-4">📦</div>
+                    <h3 class="text-2xl font-bold mb-4 text-blue-400">Relocating</h3>
+                    <p class="text-slate-300 text-lg">"Need housing + storage + stability"</p>
+                </div>
+                <div class="bg-slate-800/50 border border-slate-700 rounded-2xl p-8 hover:border-blue-500 transition">
+                    <div class="text-6xl mb-4">🏗️</div>
+                    <h3 class="text-2xl font-bold mb-4 text-blue-400">Construction Delayed</h3>
+                    <p class="text-slate-300 text-lg">"Build delayed 4 months. Now what?"</p>
+                </div>
+            </div>
+            <div class="text-center">
+                <p class="text-2xl text-slate-300 mb-4">Current solutions are broken:</p>
+                <div class="flex flex-wrap justify-center gap-4 text-lg text-red-400">
+                    <span class="bg-red-950/30 px-6 py-3 rounded-full border border-red-800">Hotels = $150-300/night</span>
+                    <span class="bg-red-950/30 px-6 py-3 rounded-full border border-red-800">Airbnb = Inconsistent</span>
+                    <span class="bg-red-950/30 px-6 py-3 rounded-full border border-red-800">Apartments = 12-mo leases</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solution" class="min-h-screen flex items-center bg-gradient-to-b from-slate-900 to-slate-950 py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-bold mb-6"><span class="bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent">The AVP Solution</span></h2>
+                <p class="text-2xl text-slate-300 max-w-3xl mx-auto mb-4">Purpose-built modular communities for families in transition</p>
+                <p class="text-xl text-emerald-400 font-semibold">We're selling time, peace of mind, and breathing room.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="bg-gradient-to-br from-blue-600/20 to-emerald-600/20 rounded-3xl p-12 border border-blue-500/30">
+                    <div class="text-6xl mb-6">🏘️</div>
+                    <h3 class="text-3xl font-bold mb-4">Modular Bridge Communities</h3>
+                    <ul class="space-y-4 text-lg text-slate-300">
+                        <li class="flex items-start"><span class="text-emerald-400 mr-3 text-2xl">✓</span><span>Studio to 4-BR fully furnished</span></li>
+                        <li class="flex items-start"><span class="text-emerald-400 mr-3 text-2xl">✓</span><span>6-18 month leases only</span></li>
+                        <li class="flex items-start"><span class="text-emerald-400 mr-3 text-2xl">✓</span><span>All-inclusive: rent + utilities + internet + storage</span></li>
+                        <li class="flex items-start"><span class="text-emerald-400 mr-3 text-2xl">✓</span><span>Gated, secure, pet-friendly</span></li>
+                    </ul>
+                </div>
+                <div class="space-y-6">
+                    <div class="bg-slate-800 rounded-xl p-6 border border-slate-700 hover:border-emerald-500 transition">
+                        <div class="flex items-center gap-4"><span class="text-4xl">💼</span><div><h4 class="text-xl font-bold text-emerald-400">Co-working Spaces</h4><p class="text-slate-300">Work remotely while transitioning</p></div></div>
+                    </div>
+                    <div class="bg-slate-800 rounded-xl p-6 border border-slate-700 hover:border-emerald-500 transition">
+                        <div class="flex items-center gap-4"><span class="text-4xl">🐕</span><div><h4 class="text-xl font-bold text-emerald-400">Family & Pet Amenities</h4><p class="text-slate-300">Daycare and dog parks</p></div></div>
+                    </div>
+                    <div class="bg-slate-800 rounded-xl p-6 border border-slate-700 hover:border-emerald-500 transition">
+                        <div class="flex items-center gap-4"><span class="text-4xl">📦</span><div><h4 class="text-xl font-bold text-emerald-400">Climate Storage</h4><p class="text-slate-300">Safe, accessible belongings</p></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="min-h-screen flex items-center bg-gradient-to-b from-slate-950 to-slate-900 py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-bold mb-6">Why Now? Perfect Storm</h2>
+                <p class="text-xl text-slate-400">Macro forces converging to create unprecedented demand</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-slate-800/50 rounded-2xl p-8 border border-slate-700">
+                    <div class="text-6xl mb-4">🏠</div>
+                    <h3 class="text-2xl font-bold mb-3 text-emerald-400">Construction Delays</h3>
+                    <p class="text-lg text-slate-300 mb-2">6.5 → 8.5+ months build time</p>
+                    <p class="text-blue-400 font-semibold">40% face 3-6 month delays</p>
+                </div>
+                <div class="bg-slate-800/50 rounded-2xl p-8 border border-slate-700">
+                    <div class="text-6xl mb-4">💼</div>
+                    <h3 class="text-2xl font-bold mb-3 text-emerald-400">Remote Work Migration</h3>
+                    <p class="text-lg text-slate-300 mb-2">36M Americans remote by 2025</p>
+                    <p class="text-blue-400 font-semibold">4x more likely to relocate</p>
+                </div>
+                <div class="bg-slate-800/50 rounded-2xl p-8 border border-slate-700">
+                    <div class="text-6xl mb-4">⚖️</div>
+                    <h3 class="text-2xl font-bold mb-3 text-emerald-400">NAR Settlement (2024)</h3>
+                    <p class="text-lg text-slate-300 mb-2">Agents must prove value-add</p>
+                    <p class="text-blue-400 font-semibold">AVP gives brokers competitive edge</p>
+                </div>
+                <div class="bg-slate-800/50 rounded-2xl p-8 border border-slate-700">
+                    <div class="text-6xl mb-4">🏗️</div>
+                    <h3 class="text-2xl font-bold mb-3 text-emerald-400">Modular Acceptance</h3>
+                    <p class="text-lg text-slate-300 mb-2">Mainstream adoption accelerating</p>
+                    <p class="text-blue-400 font-semibold">30-50% faster, 10-20% cheaper</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="min-h-screen flex items-center bg-gradient-to-b from-slate-900 to-slate-950 py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-bold mb-6">The Partnership Power</h2>
+                <p class="text-2xl text-slate-300">Where Vision Meets Execution</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="bg-gradient-to-br from-blue-900/40 to-blue-950/40 rounded-3xl p-10 border-2 border-blue-500 transform hover:scale-105 transition">
+                    <div class="flex justify-center mb-6">
+                        <img src="https://raw.githubusercontent.com/ParaKeatts/avp-bridge/main/bradford-egan.jpg" alt="Bradford Egan" class="w-32 h-32 rounded-full border-4 border-blue-400 shadow-2xl object-cover"/>
+                    </div>
+                    <h3 class="text-3xl font-bold text-center mb-4 text-blue-400">Bradford Egan</h3>
+                    <p class="text-center text-xl mb-6 text-slate-300">Real Estate & Capital Architect</p>
+                    <ul class="space-y-3 text-lg">
+                        <li class="flex items-start"><span class="text-blue-400 mr-3">✦</span><span class="text-slate-300">Deal structuring & zoning</span></li>
+                        <li class="flex items-start"><span class="text-blue-400 mr-3">✦</span><span class="text-slate-300">Land acquisition & development</span></li>
+                        <li class="flex items-start"><span class="text-blue-400 mr-3">✦</span><span class="text-slate-300">Capital sourcing</span></li>
+                        <li class="flex items-start"><span class="text-blue-400 mr-3">✦</span><span class="text-slate-300">Scaling strategy</span></li>
+                    </ul>
+                </div>
+                <div class="bg-gradient-to-br from-emerald-900/40 to-emerald-950/40 rounded-3xl p-10 border-2 border-emerald-500 transform hover:scale-105 transition">
+                    <div class="flex justify-center mb-6">
+                        <img src="https://raw.githubusercontent.com/ParaKeatts/avp-bridge/main/bradford-keatts.jpg" alt="Bradford Keatts" class="w-32 h-32 rounded-full border-4 border-emerald-400 shadow-2xl object-cover"/>
+                    </div>
+                    <h3 class="text-3xl font-bold text-center mb-4 text-emerald-400">Bradford Keatts</h3>
+                    <p class="text-center text-xl mb-6 text-slate-300">AI Systems & Operations</p>
+                    <ul class="space-y-3 text-lg">
+                        <li class="flex items-start"><span class="text-emerald-400 mr-3">✦</span><span class="text-slate-300">Digital infrastructure</span></li>
+                        <li class="flex items-start"><span class="text-emerald-400 mr-3">✦</span><span class="text-slate-300">AI leasing & billing</span></li>
+                        <li class="flex items-start"><span class="text-emerald-400 mr-3">✦</span><span class="text-slate-300">Predictive analytics</span></li>
+                        <li class="flex items-start"><span class="text-emerald-400 mr-3">✦</span><span class="text-slate-300">Operational workflows</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="min-h-screen flex items-center bg-gradient-to-b from-slate-950 to-slate-900 py-20">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-6xl font-bold mb-8"><span class="bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">Building Time, Not Just Homes</span></h2>
+            <p class="text-2xl text-slate-300 mb-12 leading-relaxed">Time for families to breathe.<br/>Time for deals to close cleanly.<br/><span class="text-emerald-400 font-semibold">Time to take back control of a broken cycle.</span></p>
+            <div class="grid md:grid-cols-3 gap-6 mb-16">
+                <div class="bg-slate-800 rounded-2xl p-6 border border-slate-700">
+                    <div class="text-5xl mb-4">🏢</div>
+                    <h4 class="text-xl font-bold mb-3 text-blue-400">Brokers</h4>
+                    <p class="text-slate-300 mb-4">Solve timing issues</p>
+                    <button class="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold w-full">Partner</button>
+                </div>
+                <div class="bg-slate-800 rounded-2xl p-6 border border-slate-700">
+                    <div class="text-5xl mb-4">💼</div>
+                    <h4 class="text-xl font-bold mb-3 text-emerald-400">Investors</h4>
+                    <p class="text-slate-300 mb-4">12-18% ROI</p>
+                    <button class="px-6 py-3 bg-emerald-600 hover:bg-emerald-700 rounded-lg font-semibold w-full">Learn More</button>
+                </div>
+                <div class="bg-slate-800 rounded-2xl p-6 border border-slate-700">
+                    <div class="text-5xl mb-4">🏗️</div>
+                    <h4 class="text-xl font-bold mb-3 text-blue-400">Corporate HR</h4>
+                    <p class="text-slate-300 mb-4">Relocation solution</p>
+                    <button class="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold w-full">Get Started</button>
+                </div>
+            </div>
+            <div class="bg-gradient-to-r from-blue-900/30 via-emerald-900/30 to-blue-900/30 rounded-3xl p-12 border border-slate-700">
+                <p class="text-3xl font-bold mb-8">This is what the market has always needed.</p>
+                <p class="text-2xl text-slate-300 mb-8">We just have to build it.</p>
+                <button class="px-12 py-5 bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 rounded-full text-xl font-bold shadow-2xl shadow-blue-500/50 transform hover:scale-105 transition">Join The Vision</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 border-t border-slate-800 py-12">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <div class="text-3xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent mb-4">AVP Relocation Bridge Community</div>
+            <p class="text-slate-400 mb-6">Partners: Bradford Egan & Bradford Keatts</p>
+            <p class="text-slate-500 text-sm">© 2025 AVP Partners. Building the future of transitional housing.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) target.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
