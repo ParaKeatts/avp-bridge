@@ -1,107 +1,162 @@
-font-bold flex-shrink-0 shadow-2xl">
-                            1
-                        </div>
-                        <div>
-                            <div class="text-sm text-slate-400 mb-1">Phase 1: Pilot</div>
-                            <h3 class="text-2xl font-bold mb-2">Grand Rapids Launch</h3>
-                            <p class="text-lg text-slate-300">20-30 units, prove operational model, validate unit economics, test occupancy assumptions. Low-cost market for learning.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="bg-slate-800/50 rounded-2xl p-8 border border-slate-700 backdrop-blur hover:border-blue-500 transition-all">
-                    <div class="flex items-center gap-6">
-                        <div class="w-20 h-20 rounded-full bg-gradient-to-br from-blue-600 to-emerald-700 flex items-center justify-center text-2xl font-bold flex-shrink-0 shadow-2xl">
-                            2
-                        </div>
-                        <div>
-                            <div class="text-sm text-slate-400 mb-1">Phase 2: Scale</div>
-                            <h3 class="text-2xl font-bold mb-2">High-Growth Markets</h3>
-                            <p class="text-lg text-slate-300">Phoenix, Nashville, Austin expansion. Capture relocation demand. Lock in initial corporate and builder contracts. Build momentum.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="bg-slate-800/50 rounded-2xl p-8 border border-slate-700 backdrop-blur hover:border-emerald-500 transition-all">
-                    <div class="flex items-center gap-6">
-                        <div class="w-20 h-20 rounded-full bg-gradient-to-br from-blue-600 to-emerald-700 flex items-center justify-center text-2xl font-bold flex-shrink-0 shadow-2xl">
-                            3
-                        </div>
-                        <div>
-                            <div class="text-sm text-slate-400 mb-1">Phase 3: Corporate Expansion</div>
-                            <h3 class="text-2xl font-bold mb-2">National Contracts</h3>
-                            <p class="text-lg text-slate-300">Partner with Fortune 500 HR departments, DoD military family programs, FEMA disaster relief. Become embedded critical infrastructure.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="bg-slate-800/50 rounded-2xl p-8 border border-slate-700 backdrop-blur hover:border-emerald-500 transition-all">
-                    <div class="flex items-center gap-6">
-                        <div class="w-20 h-20 rounded-full bg-gradient-to-br from-blue-600 to-emerald-700 flex items-center justify-center text-2xl font-bold flex-shrink-0 shadow-2xl">
-                            4
-                        </div>
-                        <div>
-                            <div class="text-sm text-slate-400 mb-1">Phase 4: Franchise Model</div>
-                            <h3 class="text-2xl font-bold mb-2">Capital-Light Dominance</h3>
-                            <p class="text-lg text-slate-300">License AVP blueprint, operational stack, and technology platform to qualified regional developers. Nationwide coverage, royalty revenue.</p>
-                        </div>
-                    </div>
-                </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVP Relocation Bridge Community</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .animate-fade-in-up {
+            animation: fadeInUp 0.6s ease-out both;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        .animate-float {
+            animation: float 3s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-white overflow-x-hidden">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 bg-slate-950/80 backdrop-blur-lg border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
+                AVP Bridge
             </div>
+            <div class="flex gap-6 text-sm">
+                <a href="#vision" class="hover:text-blue-400 transition">Vision</a>
+                <a href="#solution" class="hover:text-blue-400 transition">Solution</a>
+                <a href="#team" class="hover:text-blue-400 transition">Team</a>
+                <a href="#contact" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg transition">Partner With Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-950/50 via-slate-950 to-emerald-950/50"></div>
+        <div class="absolute inset-0 opacity-20" style="background-image: radial-gradient(circle at 2px 2px, rgb(148, 163, 184) 1px, transparent 0); background-size: 40px 40px;"></div>
+        
+        <div class="relative z-10 text-center max-w-5xl mx-auto px-6">
+            <div class="mb-8 inline-block animate-float">
+                <img 
+                    src="https://raw.githubusercontent.com/ParaKeatts/avp-bridge/main/bradford-egan.jpg"
+                    alt="Bradford Egan"
+                    class="w-32 h-32 rounded-full border-4 border-blue-500 shadow-2xl shadow-blue-500/50 mx-auto object-cover"
+                />
+            </div>
+            
+            <h1 class="text-6xl md:text-7xl font-bold mb-6 leading-tight animate-fade-in-up">
+                <span class="bg-gradient-to-r from-blue-400 via-emerald-400 to-blue-400 bg-clip-text text-transparent">
+                    Bradford Egan
+                </span>
+                <br />
+                <span class="text-4xl md:text-5xl text-slate-300">presents</span>
+            </h1>
+            
+            <h2 class="text-5xl md:text-6xl font-bold mb-8 text-white animate-fade-in-up" style="animation-delay: 0.2s;">
+                The Relocation Bridge
+            </h2>
+            
+            <p class="text-xl md:text-2xl text-slate-300 mb-4 max-w-3xl mx-auto leading-relaxed animate-fade-in-up" style="animation-delay: 0.4s;">
+                We don't just sell housing. <span class="text-emerald-400 font-bold">We sell time.</span>
+            </p>
+            
+            <p class="text-lg md:text-xl text-slate-400 mb-12 max-w-3xl mx-auto animate-fade-in-up" style="animation-delay: 0.6s;">
+                Solving the timeless problem: <span class="text-emerald-400 font-semibold">"Where do I go between homes?"</span>
+                <br />
+                <span class="text-slate-500 text-base mt-2 block">41 million Americans face this every year</span>
+            </p>
+            
+            <a href="#problem" class="inline-block px-8 py-4 bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 rounded-full text-lg font-semibold shadow-2xl shadow-blue-500/50 transition-all transform hover:scale-105 animate-fade-in-up" style="animation-delay: 0.8s;">
+                Discover The Vision
+            </a>
         </div>
     </section>
 
-    <!-- Call to Action -->
-    <section id="contact" class="min-h-screen flex items-center bg-gradient-to-b from-slate-950 to-slate-900 py-20">
-        <div class="max-w-4xl mx-auto px-6 text-center">
-            <h2 class="text-6xl font-bold mb-8">
-                <span class="bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
-                    Building Time, Not Just Homes
-                </span>
-            </h2>
+    <!-- Sarah's Story -->
+    <section id="problem" class="min-h-screen flex items-center bg-gradient-to-b from-slate-950 to-slate-900 py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-bold mb-6">Meet Sarah</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-emerald-500 mx-auto mb-8"></div>
+                <p class="text-xl text-slate-400">A feeling millions of Americans know: universal anxiety</p>
+            </div>
             
-            <p class="text-2xl text-slate-300 mb-12 leading-relaxed">
-                Time for families to figure out their next move.<br />
-                Time for deals to close cleanly without panic.<br />
-                Time for realtors to solve transaction timing issues.<br />
-                <span class="text-emerald-400 font-semibold">Time to take back control of a broken real estate cycle.</span>
-            </p>
-            
-            <div class="grid md:grid-cols-3 gap-6 mb-16">
-                <div class="bg-slate-800 rounded-2xl p-6 border border-slate-700 hover:border-blue-500 transition-all">
-                    <div class="text-5xl mb-4">🏢</div>
-                    <h4 class="text-xl font-bold mb-3 text-blue-400">Real Estate Brokers</h4>
-                    <p class="text-slate-300 mb-4">Refer clients, solve timing issues, close deals faster</p>
-                    <button class="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition w-full">
-                        Partner With Us
-                    </button>
-                </div>
-                
-                <div class="bg-slate-800 rounded-2xl p-6 border border-slate-700 hover:border-emerald-500 transition-all">
-                    <div class="text-5xl mb-4">💼</div>
-                    <h4 class="text-xl font-bold mb-3 text-emerald-400">Investors</h4>
-                    <p class="text-slate-300 mb-4">12-18% ROI, scalable model, proven demand</p>
-                    <button class="px-6 py-3 bg-emerald-600 hover:bg-emerald-700 rounded-lg font-semibold transition w-full">
-                        Learn More
-                    </button>
-                </div>
-                
-                <div class="bg-slate-800 rounded-2xl p-6 border border-slate-700 hover:border-blue-500 transition-all">
-                    <div class="text-5xl mb-4">🏗️</div>
-                    <h4 class="text-xl font-bold mb-3 text-blue-400">Corporate HR</h4>
-                    <p class="text-slate-300 mb-4">Turnkey relocation solution for employees</p>
-                    <button class="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition w-full">
-                        Get Started
-                    </button>
+            <div class="max-w-4xl mx-auto mb-20">
+                <div class="bg-gradient-to-br from-slate-800/50 to-slate-900/50 rounded-3xl p-10 border border-slate-700 backdrop-blur">
+                    <div class="text-6xl mb-6 text-center">👨‍👩‍👧‍👦</div>
+                    <p class="text-2xl text-slate-300 leading-relaxed mb-6">
+                        Sarah and her family received an amazing offer on their Phoenix home—<span class="text-emerald-400 font-bold">$50K over asking</span>. They couldn't say no. They accepted immediately.
+                    </p>
+                    <p class="text-2xl text-slate-300 leading-relaxed mb-6">
+                        Closing was in <span class="text-blue-400 font-bold">30 days</span>. But their new construction home? 
+                        <span class="text-red-400 font-bold"> Delayed 7 months</span> due to supply chain issues.
+                    </p>
+                    <p class="text-2xl text-slate-300 leading-relaxed mb-6">
+                        <span class="text-red-400 font-bold">Their options:</span> Extended stay hotels at $8,400/month, Airbnb roulette with inconsistent quality, or rushing into buying the wrong house just to escape the logistical nightmare.
+                    </p>
+                    <div class="bg-slate-950/50 rounded-2xl p-8 mt-8 border-l-4 border-blue-500">
+                        <p class="text-3xl text-white font-bold text-center">
+                            "Where do we go with two kids, a dog, and all our belongings?"
+                        </p>
+                        <p class="text-lg text-slate-400 text-center mt-4">
+                            This isn't rare. This is <span class="text-emerald-400 font-semibold">millions of families</span> every single year.
+                        </p>
+                    </div>
                 </div>
             </div>
             
-            <div class="bg-gradient-to-r from-blue-900/30 via-emerald-900/30 to-blue-900/30 rounded-3xl p-12 border border-slate-700 backdrop-blur">
-                <p class="text-3xl font-bold mb-8">This is what the market has always needed.</p>
-                <p class="text-2xl text-slate-300 mb-8">We just have to build it.</p>
-                <button class="px-12 py-5 bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 rounded-full text-xl font-bold shadow-2xl shadow-blue-500/50 transition-all transform hover:scale-105">
-                    Join The Vision
-                </button>
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-bold mb-6">The $40B Problem</h2>
+                <p class="text-2xl text-slate-300 mb-4">41 million Americans move every year</p>
+                <p class="text-xl text-slate-400 mb-8">7.7 million cross state lines • Average cost $4,890+ per move</p>
+                <div class="flex justify-center gap-4 mb-6 flex-wrap">
+                    <span class="bg-red-950/30 px-6 py-3 rounded-full border border-red-800 text-red-400">60% overspend budget</span>
+                    <span class="bg-red-950/30 px-6 py-3 rounded-full border border-red-800 text-red-400">90% experience stress</span>
+                </div>
+                <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-emerald-500 mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <div class="bg-slate-800/50 backdrop-blur border border-slate-700 rounded-2xl p-8 hover:border-blue-500 transition-all transform hover:scale-105">
+                    <div class="text-6xl mb-4">🏠</div>
+                    <h3 class="text-2xl font-bold mb-4 text-blue-400">Sold My House</h3>
+                    <p class="text-slate-300 text-lg leading-relaxed">"Where do I go while searching for the next one?"</p>
+                </div>
+                
+                <div class="bg-slate-800/50 backdrop-blur border border-slate-700 rounded-2xl p-8 hover:border-blue-500 transition-all transform hover:scale-105">
+                    <div class="text-6xl mb-4">📦</div>
+                    <h3 class="text-2xl font-bold mb-4 text-blue-400">Relocating</h3>
+                    <p class="text-slate-300 text-lg leading-relaxed">"Need temporary housing + storage + stability for my family"</p>
+                </div>
+                
+                <div class="bg-slate-800/50 backdrop-blur border border-slate-700 rounded-2xl p-8 hover:border-blue-500 transition-all transform hover:scale-105">
+                    <div class="text-6xl mb-4">🏗️</div>
+                    <h3 class="text-2xl font-bold mb-4 text-blue-400">New Construction</h3>
+                    <p class="text-slate-300 text-lg leading-relaxed">"My build is delayed 4 months. Now what?"</p>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <p class="text-2xl text-slate-300 mb-4">Current solutions are fundamentally broken:</p>
+                <div class="flex flex-wrap justify-center gap-4 text-lg text-red-400">
+                    <span class="bg-red-950/30 px-6 py-3 rounded-full border border-red-800">Hotels = $150-300/night</span>
+                    <span class="bg-red-950/30 px-6 py-3 rounded-full border border-red-800">Airbnb = Inconsistent quality</span>
+                    <span class="bg-red-950/30 px-6 py-3 rounded-full border border-red-800">Apartments = 12-month leases</span>
+                </div>
             </div>
         </div>
     </section>
@@ -130,46 +185,6 @@ font-bold flex-shrink-0 shadow-2xl">
                 if (target) {
                     target.scrollIntoView({ behavior: 'smooth' });
                 }
-            });
-        });
-
-        // ROI Calculator
-        function updateROI() {
-            const units = parseInt(document.getElementById('units-slider').value);
-            const occupancy = parseInt(document.getElementById('occupancy-slider').value);
-            const avgRent = parseInt(document.getElementById('rent-slider').value);
-            
-            const grossRevenue = units * (occupancy / 100) * avgRent * 12;
-            const storage = units * (occupancy / 100) * 150 * 12;
-            const totalRevenue = grossRevenue + storage;
-            const expenses = totalRevenue * 0.45;
-            const noi = totalRevenue - expenses;
-            const investment = units * 180000;
-            const roi = ((noi / investment) * 100).toFixed(1);
-            
-            document.getElementById('units-value').textContent = units;
-            document.getElementById('occupancy-value').textContent = occupancy + '%';
-            document.getElementById('rent-value').textContent = '$' + avgRent.toLocaleString();
-            document.getElementById('revenue-display').textContent = '$' + (totalRevenue / 1000000).toFixed(2) + 'M';
-            document.getElementById('expenses-display').textContent = '$' + (expenses / 1000000).toFixed(2) + 'M';
-            document.getElementById('noi-display').textContent = '$' + (noi / 1000000).toFixed(2) + 'M';
-            document.getElementById('roi-display').textContent = roi + '%';
-            document.getElementById('investment-display').textContent = '*Assumes $' + investment.toLocaleString() + ' total investment • 45% operating expense ratio • Storage at $150/unit/month';
-        }
-        
-        document.getElementById('units-slider').addEventListener('input', updateROI);
-        document.getElementById('occupancy-slider').addEventListener('input', updateROI);
-        document.getElementById('rent-slider').addEventListener('input', updateROI);
-        
-        // Initialize calculator
-        updateROI();
-
-        // Parallax effect
-        window.addEventListener('scroll', () => {
-            const scrollY = window.scrollY;
-            const parallaxElements = document.querySelectorAll('.animate-float');
-            parallaxElements.forEach(el => {
-                el.style.transform = `translateY(${scrollY * 0.05}px)`;
             });
         });
     </script>
